@@ -22,3 +22,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/Schenna43lp1/docker-debian-13.git
 cd docker-debian-13
+chmod +x docker-install.sh
+./docker-install.sh
