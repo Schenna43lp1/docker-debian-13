@@ -1,13 +1,24 @@
-# Deploy n8n on Render
+# Docker Debian 13 Install Script
 
-> [!IMPORTANT]
-> **View full deployment instructions in the [**Render docs**](https://render.com/docs/deploy-n8n).**
+A simple Bash script to install Docker Engine and Docker Compose on Debian 13.
 
-This template defines a [`render.yaml`](https://github.com/render-examples/n8n/blob/main/render.yaml) file you can use to deploy [n8n](https://n8n.io/) on Render. Click **Use this template** in the upper right to copy this template into your account as a new repo.
+## Features
 
-The `render.yaml` file defines the following resources:
+- Installs Docker Engine
+- Installs Docker CLI
+- Installs Docker Compose plugin
+- Enables and starts the Docker service
+- Runs a basic Docker test
 
-- A web service that pulls and runs the official n8n Docker image
-- A Render Postgres database that stores n8n data
+## Supported System
 
-Each of the above uses a free instance type by default.
+- Debian 13
+- Root or sudo access required
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Schenna43lp1/docker-debian-13.git
+cd docker-debian-13
